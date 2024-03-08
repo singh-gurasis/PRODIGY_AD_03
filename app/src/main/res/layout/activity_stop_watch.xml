@@ -9,7 +9,6 @@
         android:background="@color/colorPrimaryDark"
         tools:context=".StopWatchActivity">
 
-
         <ImageView
             android:id="@+id/bgcircle"
             android:layout_width="276dp"
@@ -30,6 +29,7 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="20dp"
+            android:rotation="32"
             android:src="@drawable/icanchor"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -72,7 +72,7 @@
             android:layout_marginBottom="40sp"
             android:layout_marginEnd="8sp"
             android:layout_marginStart="8sp"
-            android:text="Stop"
+            android:text="Pause"
             android:textColor="#FFF"
             android:textSize="20sp"
             android:backgroundTint="@color/colorAccent"
